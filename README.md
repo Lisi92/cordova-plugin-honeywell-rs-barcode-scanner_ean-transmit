@@ -34,4 +34,4 @@ cordova.plugins.honeywell.barcode.onBarcodeScanned(result => {
 })
 ```
 
-"# cordova-plugin-honeywell-rs-barcode-scanner_ean-transmit" 
+
