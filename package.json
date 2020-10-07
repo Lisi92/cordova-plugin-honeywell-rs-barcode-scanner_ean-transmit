@@ -1,5 +1,5 @@
 {
-  "name": "cordova-plugin-honeywell-rs-barcode-scanner_ean-transmit",
+  "name": "@lisi92/cordova-plugin-honeywell-rs-barcode-scanner_ean-transmit",
   "version": "1.0.0",
   "description": "Cordova plugin for Android Honeywell barcode scanner with ean transmit",
   "main": "index.js",

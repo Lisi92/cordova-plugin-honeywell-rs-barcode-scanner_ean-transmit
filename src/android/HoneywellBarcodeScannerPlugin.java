@@ -47,10 +47,18 @@ public class HoneywellBarcodeScannerPlugin extends CordovaPlugin implements Barc
                     // Set Symbologies On/Off
                     properties.put(BarcodeReader.PROPERTY_CODE_128_ENABLED, true);
                     properties.put(BarcodeReader.PROPERTY_GS1_128_ENABLED, true);
+		    // properties.put(BarcodeReader.PROPERTY_GS1_128_MINIMUM_LENGTH, 1);
+		    // properties.put(BarcodeReader.PROPERTY_GS1_128_MAXIMUM_LENGTH, 80);		
                     properties.put(BarcodeReader.PROPERTY_QR_CODE_ENABLED, true);
                     properties.put(BarcodeReader.PROPERTY_CODE_39_ENABLED, true);
                     properties.put(BarcodeReader.PROPERTY_DATAMATRIX_ENABLED, true);
                     properties.put(BarcodeReader.PROPERTY_UPC_A_ENABLE, true);
+		    properties.put(BarcodeReader.PROPERTY_UPC_A_CHECK_DIGIT_TRANSMIT_ENABLED, true);
+		    properties.put(BarcodeReader.PROPERTY_UPC_A_NUMBER_SYSTEM_TRANSMIT_ENABLED, true);
+		    properties.put(BarcodeReader.PROPERTY_UPC_E_ENABLE, true);
+		    properties.put(BarcodeReader.PROPERTY_UPC_E_E1_ENABLED, true);
+		    properties.put(BarcodeReader.PROPERTY_UPC_E_CHECK_DIGIT_TRANSMIT_ENABLED, true);
+		    properties.put(BarcodeReader.PROPERTY_UPC_E_NUMBER_SYSTEM_TRANSMIT_ENABLED, true);
                     properties.put(BarcodeReader.PROPERTY_EAN_8_ENABLED, true);
                     properties.put(BarcodeReader.PROPERTY_EAN_8_CHECK_DIGIT_TRANSMIT_ENABLED, true);
                     properties.put(BarcodeReader.PROPERTY_EAN_13_ENABLED, true);
