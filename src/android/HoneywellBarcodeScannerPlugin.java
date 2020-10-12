@@ -52,10 +52,10 @@ public class HoneywellBarcodeScannerPlugin extends CordovaPlugin implements Barc
                     properties.put(BarcodeReader.PROPERTY_QR_CODE_ENABLED, true);
                     properties.put(BarcodeReader.PROPERTY_CODE_39_ENABLED, true);
                     properties.put(BarcodeReader.PROPERTY_DATAMATRIX_ENABLED, true);
-                    properties.put(BarcodeReader.PROPERTY_UPC_A_ENABLE, true);
+                    properties.put(BarcodeReader.PROPERTY_UPC_A_ENABLED, true);
 		    properties.put(BarcodeReader.PROPERTY_UPC_A_CHECK_DIGIT_TRANSMIT_ENABLED, true);
 		    properties.put(BarcodeReader.PROPERTY_UPC_A_NUMBER_SYSTEM_TRANSMIT_ENABLED, true);
-		    properties.put(BarcodeReader.PROPERTY_UPC_E_ENABLE, true);
+		    properties.put(BarcodeReader.PROPERTY_UPC_E_ENABLED, true);
 		    properties.put(BarcodeReader.PROPERTY_UPC_E_E1_ENABLED, true);
 		    properties.put(BarcodeReader.PROPERTY_UPC_E_CHECK_DIGIT_TRANSMIT_ENABLED, true);
 		    properties.put(BarcodeReader.PROPERTY_UPC_E_NUMBER_SYSTEM_TRANSMIT_ENABLED, true);
